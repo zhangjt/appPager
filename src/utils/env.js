@@ -3,12 +3,12 @@ let baseUrl = '';
 let ruleUrl = '';
 
 var host = window.location.host;
-if(host==='m.caimiaoxingqiu.com'||'www.wdjzt88.com'||'www.caimiaoxingqiu.com'){
-	baseUrl = 'https://prod.wdjzt88.com';
-	ruleUrl = 'http://test.wdjzt88.com/wap/cashcoupon/rule.html';
+if(host==='m.xxxxingqiu.com'||'www.aaa88.com'||'www.xxxxingqiu.com'){
+	baseUrl = 'https://prod.aaa88.com';
+	ruleUrl = 'http://test.aaa88.com/wap/cashcoupon/rule.html';
 }else{
-    baseUrl = 'https://dev.caimiaoxingqiu.com';
-	ruleUrl = 'http://test.wdjzt88.com/wap/cashcoupon/rule.html';
+    baseUrl = 'https://dev.xxxxingqiu.com';
+	ruleUrl = 'http://test.aaa88.com/wap/cashcoupon/rule.html';
 }
 
 export {
